@@ -1,0 +1,1213 @@
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes bouncing-ball {
+  100%{
+      transform:translateY(100px) 
+      }
+    }
+@-moz-keyframes bouncing-ball {
+  100%{
+      transform:translateY(100px) 
+      }
+    }
+@-webkit-keyframes bouncing-ball {
+  100%{
+      transform:translateY(100px) 
+      }
+    }
+@-o-keyframes bouncing-ball {
+  100%{
+      transform:translateY(100px) 
+      }
+    }
+@-ms-keyframes bouncing-ball {
+  100%{
+      transform:translateY(100px) 
+      }
+    }
+
+@keyframes rotate {
+0%, 100% {
+        rotate: y -45deg;
+      }
+      50% {
+        rotate: y 45deg;
+      }
+    }
+@-moz-keyframes rotate {
+  0%, 100% {
+          rotate: y -45deg;
+        }
+        50% {
+          rotate: y 45deg;
+        }
+      }
+@-webkit-keyframes rotate {
+  0%, 100% {
+          rotate: y -45deg;
+        }
+        50% {
+          rotate: y 45deg;
+        }
+      }
+@-o-keyframes rotate {
+  0%, 100% {
+          rotate: y -45deg;
+        }
+        50% {
+          rotate: y 45deg;
+        }
+      }
+@-ms-keyframes rotate {
+  0%, 100% {
+          rotate: y -45deg;
+        }
+        50% {
+          rotate: y 45deg;
+        }
+      }
+
+
+
+.wrapper{
+    background-color:whitesmoke;
+}
+.topname{
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+font-size:200px;
+margin-top:0px;
+color:black;
+margin:0px;
+
+}
+.wrapper {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+ 
+.line{
+    background-color:black;
+    height:5px;
+    margin-top:10px;
+    z-index:6;
+}
+.desc{
+    margin-top:0px;
+    font-size:30px;
+    font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+
+}
+#anchor{
+  position:absolute;
+  width:22%;
+  height:auto;
+  right:7%;
+  bottom:65%;
+  background-color:whitesmoke;
+
+}
+
+#eyes{
+  position:absolute;
+  left:72%;
+  top:10%;
+  z-index:4;
+  
+}
+
+.contact{
+  outline-color:black;
+outline-width:thick;
+  position:absolute;
+  left:1%;
+  top:115%;
+  z-index:2;
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  font-size:100px;
+
+
+}
+.contact:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  }
+.contacts{
+  position:absolute;
+ top:135%;
+ left:1%;
+  font-size:20px;
+  font-family: "Maven Pro", sans-serif;
+font-optical-sizing: auto;
+font-weight:normal;
+font-style: normal;
+}
+
+.Luka{
+    height:25%;
+    width:25%;
+    margin-top:10px;
+}
+.Luka:hover{
+    box-shadow:20px 20px 20px black;
+    transition: box-shadow 1s;
+    }
+.underline{
+    background-color:black;
+    color:black;
+    width:60%;
+    position:absolute;
+    top:220px;
+    
+}
+.imgbox{
+  background-color:whitesmoke;
+    border-color:black;
+   color:white;
+    border-width:thick;
+    border-style:solid;
+    color:black;
+    width:60%;
+    z-index:2;
+    position:absolute;
+    top:375px;
+    right:100px;
+    height:60%;
+    justify-content:center;
+    background-image:url(eye.png);
+    background-repeat:repeat;
+    overflow:hidden;
+    
+}
+
+.grad{
+    width:100%;
+    height:100%;
+    position:absolute;
+    z-index:2;
+}
+
+.wib{
+   color:black;
+   position:absolute;
+   left:10%;
+   top:0%;
+   font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:30px;
+  z-index:2;
+  
+  
+}
+.abtme{
+  position:relative;
+  font-size:20px;
+  writing-mode:vertical-rl;
+  text-orientation:upright;
+  left:25%;
+  bottom:500px;
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:30px;
+}
+.arrow{
+  width:3%;
+  height:auto;
+  position:absolute;
+  z-index:3;
+  transform:rotate(180deg);
+  bottom:20px;
+  left:27%;
+}
+
+.whoami{
+  font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+font-size:200px;
+margin-top:0px;
+color:black;
+margin:0px;
+}
+.snakebox{
+  outline-style:solid;
+  outline-color:black;
+position:absolute;
+outline-width:thick;
+width:33%;
+height:25%;
+top:5%;
+right:2%;
+overflow:hidden;
+}
+.wig{
+  color:black;
+   position:absolute;
+   left:10%;
+   top:25%;
+   font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:30px;
+  z-index:2;
+}
+.arrow1{
+  width:10%;
+  height:auto;
+  position:absolute;
+  rotate:270deg;
+  bottom:40%;
+  left:25%;
+  z-index:2;
+
+}
+.arrow2{
+  width:10%;
+  height:auto;
+  position:absolute;
+  rotate:90deg;
+  bottom:40%;
+  left:70%;
+  z-index:2;
+
+
+}
+.background{
+width:100%;
+position:absolute;
+z-index:1;
+height:auto;
+opacity:30%;
+}
+
+.wibbox{
+  background-color:whitesmoke;
+  color:white;
+  z-index:2;
+  width:33%;
+  height:15%;
+  position:absolute;
+  left:5%;
+  bottom:75%;
+  outline-style:solid;
+  outline-color:black;
+  align-content:center;
+}
+.wibbox:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  }
+  .wigbox{
+    background-color:whitesmoke;
+    color:white;
+    z-index:2;
+    width:33%;
+    height:15%;
+    position:absolute;
+    right:5%;
+    top:75%;
+    outline-style:solid;
+    outline-color:black;
+    align-content:center;
+  }
+  .wigbox:hover{
+    box-shadow:20px 20px 20px black;
+    transition: box-shadow 1s;
+    }
+    .textbox{
+      width:99%;
+      position:absolute;
+      height:99%;
+      background-color:whitesmoke;
+      outline-style:solid;
+      outline-color:black;
+      outline-width:thick;
+    }
+    .aboutme{
+      font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:1.8vw;
+  width:40vw;
+  height:40vw;
+  margin-left:30px;
+  
+ 
+    }
+    .abtback{
+      background-color:whitesmoke;
+    }
+.lukaonbridge{
+  position:absolute;
+  width:30%;
+  height:auto;
+  left:65%;
+  outline-color:black;
+  outline-style:solid;
+  outline-width:thick;
+  margin:30px;
+}
+.lukaonbridge:hover{
+  box-shadow:20px 20px 20px black;
+    transition: box-shadow 1s;
+}
+.imgchangeup{
+  border-color:black;
+  border-width:thick;
+  background-color:whitesmoke;
+  position:absolute;
+  transition-duration:1s;
+  height:10%;
+  width:10%;
+  right:40%;
+  bottom:50%;
+  
+}
+.imgchangeup:hover{
+  -webkit-filter: invert(100%) !important;
+}
+  .imgchangedown{
+    border-color:black;
+  border-width:thick;
+  background-color:whitesmoke;
+  position:absolute;
+  transition-duration: 1s;
+  height:10%;
+  width:10%;
+  right:40%;
+  bottom:20%;
+  }
+  
+    .imgchangedown:hover{
+      -webkit-filter: invert(100%) !important;
+  }
+  .backarrow{
+    position:absolute;
+    background-color:whitesmoke;
+    width:5%;
+    bottom:-50%;
+    right:1%;
+    rotate:180deg;
+  }
+  .abtback{
+      animation: fadeIn 5s;
+      -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+      -o-animation: fadeIn 5s;
+      -ms-animation: fadeIn 5s;
+    }
+  .backtohome{
+    color:black;
+    position:absolute;
+    bottom:-49%;
+    right:7%;
+    outline-style:solid;
+    outline-color:black;
+    outline-width:thick;
+    padding:10px;
+  
+    font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:1.4vw;
+  }
+  .backtohome:hover{
+      box-shadow:20px 20px 20px black;
+      transition: box-shadow 1s;
+      
+  }
+  
+  .balls{
+    position:absolute;
+    right:35%;
+    width:20%;
+    top:-25%;
+  }
+  #ball {    
+    width: 100%;    
+    height: 20px;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.4vw;
+    
+    top:-5%;
+    background-color:whitesmoke;
+   position:relative;
+     animation: bouncing-ball ease-in 0.8s  infinite alternate;                          
+ }
+  #ball2 {    
+    width: 100%;    
+    height: 20px;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.4vw;
+
+    top:-4%;
+    background-color:whitesmoke;
+   position:relative;
+     animation: bouncing-ball ease-in 0.8s  infinite alternate;                          
+ }
+  #ball3 {    
+    width: 100%;    
+    height: 20px;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.4vw;
+
+    top:-3%;
+    background-color:whitesmoke;
+   position:relative;
+     animation: bouncing-ball ease-in 0.8s  infinite alternate;                          
+ }
+  #ball4 {    
+    width: 100%;    
+    height: 20px;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.4vw;
+
+    top:-2%;
+    background-color:whitesmoke;
+   position:relative;
+     animation: bouncing-ball ease-in 0.8s  infinite alternate;                          
+ }
+  #ball5 {    
+    width: 100%;    
+    height: 20px;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.4vw;
+
+    top:-1%;
+    background-color:whitesmoke;
+   position:relative;
+     animation: bouncing-ball ease-in 0.8s  infinite alternate;                          
+ }
+  #ball6 {    
+    width: 100%;    
+    height: 20px;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.4vw;
+
+    top:0%;
+    background-color:whitesmoke;
+   position:relative;
+     animation: bouncing-ball ease-in 0.8s  infinite alternate;                          
+ }
+  #ball7 {    
+    width: 100%;    
+    height: 20px;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.4vw;
+
+    top:1%;
+    background-color:whitesmoke;
+   position:relative;
+     animation: bouncing-ball ease-in 0.8s  infinite alternate;                          
+ }
+  #ball8 {    
+    width: 100%;    
+    height: 20px;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.4vw;
+
+    top:2%;
+    background-color:whitesmoke;
+   position:relative;
+     animation: bouncing-ball ease-in 0.8s  infinite alternate;                          
+ }
+  #ball9 {    
+    width: 100%;    
+    height: 20px;    
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.4vw;
+
+    top:3%;
+    background-color:whitesmoke;
+   position:relative;
+     animation: bouncing-ball ease-in 0.8s  infinite alternate;                          
+ }
+.pastwrapper{
+  background-color:whitesmoke;
+  z-index:0;
+}
+.pastbackgrnd{
+  width: 30%;
+  height: auto;
+  position:absolute;
+  animation-direction: alternate;
+  animation: rotate 6s ease-in-out infinite;
+  transform-style: preserve-3d;
+  perspective:1000px;
+  outline-style:solid;
+  outline-color: black;
+  outline-width: thick;
+  padding:10px;
+  }
+.pastforegrnd{
+  width: 30%;
+  height: auto;
+  animation-direction: alternate;
+  animation: rotate 6s ease-in-out infinite;
+  transform: perspective(1000px) translate3D(0px, 0px, 60px)
+  
+ }
+ .past{
+  font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+font-size:125px;
+margin-top:0px;
+color:black;
+position:absolute;
+left:40%;
+top:0%;
+
+ }
+ .pastbox{
+  width:50%;
+  height:95%;
+  position:absolute;
+  left:40%;
+  top:25%;
+  background-color:whitesmoke;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  z-index:2;
+}
+.aboutpast{
+  font-family: "Maven Pro", sans-serif;
+font-optical-sizing: auto;
+font-weight:normal;
+font-style: normal;
+font-size:1.45vw;
+width:45vw;
+height:40vw;
+margin-left:30px;
+position:absolute;
+
+
+}
+.backtohomepast{
+  color:black;
+  position:absolute;
+  bottom:-49%;
+  right:7%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  padding:10px;
+
+  font-family: "Maven Pro", sans-serif;
+font-optical-sizing: auto;
+font-weight:normal;
+font-style: normal;
+font-size:1.4vw;
+}
+
+.backtohomepast:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.pastwrapper {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+.projects{
+  background-color:whitesmoke;
+  font-family: "Maven Pro", sans-serif;
+font-optical-sizing: auto;
+font-weight:normal;
+font-style: normal;
+font-size:1.9vw;
+
+margin-left:10px;
+position:absolute;
+
+}
+.projbox{
+    width:50%;
+    height:95%;
+    position:absolute;
+    top:50%;
+    background-color:whitesmoke;
+    outline-style:solid;
+    outline-color:black;
+    outline-width:thick;
+
+}
+.mac{
+  font-family: "Maven Pro", sans-serif;
+font-optical-sizing: auto;
+font-weight:normal;
+font-style: normal;
+font-size:1.5vw;
+width:45vw;
+height:40vw;
+margin-left:2%;
+margin-top:35%;
+position:absolute;
+}
+.finalmacpic{
+  position:absolute;
+  width:50%;
+  height:auto;
+  right:-70%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+
+}
+.finalmacpic:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.finalmacpic2{
+  position:absolute;
+  width:50%;
+  height:auto;
+  right:-90%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  top:50%;
+
+}
+.finalmacpic2:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.web{
+  font-family: "Maven Pro", sans-serif;
+font-optical-sizing: auto;
+font-weight:normal;
+font-style: normal;
+font-size:1.5vw;
+width:45vw;
+height:40vw;
+margin-left:2%;
+margin-top:10%;
+position:absolute;
+}
+.artweb{
+  font-family: "Maven Pro", sans-serif;
+font-optical-sizing: auto;
+font-weight:normal;
+font-style: normal;
+font-size:1.5vw;
+width:45vw;
+height:40vw;
+margin-left:2%;
+margin-top:70%;
+position:absolute;
+}
+.oldweb{
+  position:absolute;
+  width:40%;
+  height:auto;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  right:5%;
+  top: 76%;
+}
+
+.oldweb:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+
+.oldweb2{
+  position:absolute;
+  width:40%;
+  height:auto;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  right:55%;
+  top: 76%;
+}
+
+.oldweb2:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+
+.macimage{
+  position:absolute;
+  width:30%;
+  height:auto;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  right:30%;
+  top: 40%;
+}
+
+.macimage:hover{
+
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+
+.macimage2{
+  position:absolute;
+  width:30%;
+  height:auto;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  right:65%;
+  top: 40%;
+}
+
+.macimage2:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+
+}
+
+.futurewrapper {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  background-color: whitesmoke;
+}
+.future{
+  font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+font-size:150px;
+margin-top:0px;
+color:black;
+margin:0px;
+position:absolute;
+left:0%;
+}
+.backtohomefuture{
+  color:black;
+  position:absolute;
+  bottom:-20%;
+  right:7%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  padding:10px;
+
+  font-family: "Maven Pro", sans-serif;
+font-optical-sizing: auto;
+font-weight:normal;
+font-style: normal;
+font-size:1.4vw;
+}
+.backtohomefuture:hover{
+    box-shadow:20px 20px 20px black;
+    transition: box-shadow 1s;
+    
+}
+.backarrowfuture{
+  position:absolute;
+  background-color:whitesmoke;
+  width:5%;
+  bottom:-20%;
+  right:1%;
+  rotate:180deg;
+}
+.sitting{
+  outline-color:black;
+  outline-width:thick;
+  position:absolute;
+  outline-style:solid;
+  width:33%;
+  height:auto;
+  top:25%;
+  
+}
+.sitting2{
+  outline-color:black;
+  outline-width:thick;
+  position:absolute;
+  outline-style:solid;
+  width:33%;
+  height:auto;
+  top:30%;
+  left:5%;
+}
+.sitting3{
+  outline-color:black;
+  outline-width:thick;
+  position:absolute;
+  outline-style:solid;
+  width:33%;
+  height:auto;
+  top:35%;
+  left:10%;
+}
+.sitting:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+  }
+  .sitting2:hover{
+    box-shadow:20px 20px 20px black;
+    transition: box-shadow 1s;
+    
+    }
+    .sitting3:hover{
+      box-shadow:20px 20px 20px black;
+      transition: box-shadow 1s;
+      
+      }
+.final{
+  
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:1.9vw;
+  position:absolute;
+  width:50%;
+  height:45%;
+  right:2%;
+  top:40%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  padding:20px;
+}
+.oldwebwrapper{
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    background-color: whitesmoke;
+  }
+  .about{
+    font-family: "Jaro", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+  font-size:200px;
+  margin-top:0px;
+  color:black;
+  margin:0px;
+  }
+  .backarrowoldweb{
+    position:absolute;
+    background-color:whitesmoke;
+    width:5%;
+    bottom:3%;
+    right:-91%;
+    rotate:180deg;
+  }
+  .backtohomeoldweb{
+    color:black;
+    position:absolute;
+    bottom:0%;
+    right:-85%;
+    outline-style:solid;
+    outline-color:black;
+    outline-width:thick;
+    padding:10px;
+  
+    font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:1.4vw;
+  }
+  .detailsoldweb{
+    width:50%;
+    height:95%;
+    position:absolute;
+    top:50%;
+    background-color:whitesmoke;
+    outline-style:solid;
+    outline-color:black;
+    outline-width:thick;
+
+}
+.oldweblink{
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:1.5vw;
+  position:absolute;
+  width:50%;
+  height:45%;
+  right:49%;
+  top:10%;
+  
+}
+.oldline{
+  position:absolute;
+  color:black;
+  background-color:black;
+  top:20%;
+  width:90%;
+  height:1%;
+}
+.oldwebdetails{
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:1.5vw;
+  position:absolute;
+  top:25%;
+  margin:10px;
+}
+.oldwebbox{
+  width:50%;
+  height:95%;
+  position:absolute;
+  top:35%;
+  background-color:whitesmoke;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+}
+.webshooter{
+  position:absolute;
+  width:15%;
+  height:auto;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  right:55%;
+  top: 13%;
+  rotate: 90deg;
+}
+.webshooter2{
+  position:absolute;
+  width:15%;
+  height:auto;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  right:80%;
+  top: 13%;
+  rotate: 90deg;
+}
+.webshooter3{
+  position:absolute;
+  width:15%;
+  height:auto;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  right:30%;
+  top: 13%;
+  rotate: 90deg;
+}
+.webshooter:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.webshooter2:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.webshooter3:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.finaloldweb{
+  position:absolute;
+  width:75%;
+  height:auto;
+  right:-90%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+
+}
+.finaloldweb:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.finaloldweb2{
+  position:absolute;
+  width:70%;
+  height:auto;
+  right:-90%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+  top:45%;
+
+}
+.finaloldweb2:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.backtohomeoldweb:hover{
+    box-shadow:20px 20px 20px black;
+    transition: box-shadow 1s;
+}
+.webwrapper {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  background-color: whitesmoke;
+}
+.webshooterimg{
+  position:absolute;
+  width:40%;
+  height:auto;
+  right:-50%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+
+}
+.webshooterimg:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.webdetails{
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:1.5vw;
+  position:absolute;
+  top:25%;
+  margin:10px;
+}
+.webpic{
+  position:absolute;
+  width:30%;
+  height:auto;
+  right:-85%;
+  top:45%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+}
+.webpic:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.webpic2{
+  position:absolute;
+  width:30%;
+  height:auto;
+  right:-85%;
+  top:0%;
+  outline-style:solid;
+  outline-color:black;
+  outline-width:thick;
+}
+.webpic2:hover{
+  box-shadow:20px 20px 20px black;
+  transition: box-shadow 1s;
+  
+}
+.webparts{
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size:1.2vw;
+  position:absolute;
+  width:100%;
+  height:45%;
+  right:-2%;
+  top:8%;
+  
+}
