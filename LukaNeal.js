@@ -14,44 +14,44 @@ function eyeball() {
 
 function ChangeImageUp(){
     let displayImage = document.getElementById('img1');
-    if(displayImage.src.match('Downloads/lukaimg1.jpg')){
-      displayImage.src = 'Downloads/lukaimg2.jpg'
+    if(displayImage.src.match('lukaimg1.jpg')){
+      displayImage.src = 'lukaimg2.jpg'
     }
-    else if(displayImage.src.match('Downloads/lukaimg2')){
-      displayImage.src = 'Downloads/lukaimg3.jpg'
+    else if(displayImage.src.match('lukaimg2')){
+      displayImage.src = 'lukaimg3.jpg'
     }
-    else if(displayImage.src.match('Downloads/lukaimg3')){
-      displayImage.src = 'Downloads/lukaimg4.jpg'
+    else if(displayImage.src.match('lukaimg3')){
+      displayImage.src = 'lukaimg4.jpg'
     }
-    else if(displayImage.src.match('Downloads/lukaimg4')){
-      displayImage.src = 'Downloads/lukaimg5.jpg'
+    else if(displayImage.src.match('lukaimg4')){
+      displayImage.src = 'lukaimg5.jpg'
     }
-    else if(displayImage.src.match('Downloads/lukaimg5')){
-      displayImage.src = 'Downloads/lukaimg6.jpg'
+    else if(displayImage.src.match('lukaimg5')){
+      displayImage.src = 'lukaimg6.jpg'
     }
     else{
-      displayImage.src = 'Downloads/lukaimg1.jpg'
+      displayImage.src = 'lukaimg1.jpg'
     }}
 
 function ChangeImageDown() {
     let displayImage = document.getElementById('img1');
-    if(displayImage.src.match('Downloads/lukaimg1.jpg')){
-        displayImage.src = 'Downloads/lukaimg6.jpg'
+    if(displayImage.src.match('lukaimg1.jpg')){
+        displayImage.src = 'lukaimg6.jpg'
       }
-    else if(displayImage.src.match('Downloads/lukaimg6')){
-        displayImage.src = 'Downloads/lukaimg5.jpg'
+    else if(displayImage.src.match('lukaimg6')){
+        displayImage.src = 'lukaimg5.jpg'
       }
-      else if(displayImage.src.match('Downloads/lukaimg5')){
-        displayImage.src = 'Downloads/lukaimg4.jpg'
+      else if(displayImage.src.match('lukaimg5')){
+        displayImage.src = 'lukaimg4.jpg'
       }
-    else if(displayImage.src.match('Downloads/lukaimg4')){
-        displayImage.src = 'Downloads/lukaimg3.jpg'
+    else if(displayImage.src.match('lukaimg4')){
+        displayImage.src = 'lukaimg3.jpg'
       }
-      else if(displayImage.src.match('Downloads/lukaimg3')){
-        displayImage.src = 'Downloads/lukaimg2.jpg'
+      else if(displayImage.src.match('lukaimg3')){
+        displayImage.src = 'lukaimg2.jpg'
       }
     else{
-        displayImage.src = 'Downloads/lukaimg1.jpg'
+        displayImage.src = 'lukaimg1.jpg'
       }
 
     }
