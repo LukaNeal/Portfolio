@@ -13,7 +13,7 @@ function eyeball() {
 }
 
 function ChangeImageUp(){
-    let displayImage = document.getElementById('img1');
+    let displayImage = document.getElementById('lukaimg1');
     if(displayImage.src.match('lukaimg1.jpg')){
       displayImage.src = 'lukaimg2.jpg'
     }
